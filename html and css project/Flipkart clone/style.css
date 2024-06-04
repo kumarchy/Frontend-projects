@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(238, 229, 229, 0.416);
+}
+header{
+    height: 67px;
+    width:100%;
+    background-color: white;
+    padding: 8px 16px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height: 45px;
+    width:156px;
+    display: flex;
+    gap: 30px;
+}
+.logo a{
+    font-size: 24px;
+    align-self:center;
+}
+.logo img{
+    height:50px;
+    width: 160px;
+}
+.input-text input{
+    height: 50px;
+    width:550px;
+    border: none;
+    outline: none;
+    background-color: #cbe2f2;
+    font-size: 22px;
+    border-radius: 0px 10px 10px 0px;
+   
+}
+.input-section{
+    display: flex;
+}
+.glass{
+    height: 50px;
+    width: 44px;
+    background-color: #cbe2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.glass i{
+    font-size: 24px;
+}
+.container-2{
+    gap: 25px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+.login-profile img{
+    height: 30px;
+    width: 30px;
+}
+.login-text span{
+    font-size: 24px;
+}
+.select-option select{
+    border: none;
+    margin-top: 6px;
+    outline: none;
+    transition: all 0.5s ease;
+
+}
+.select-option select:hover{
+    transform: rotate(180deg);
+    background-color: blue;  
+}
+.login:hover{
+    background-color: blue;
+    border-radius: 10px;
+}
+.cart{
+    font-size: 24px;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+}
+.home{
+    font-size: 24px;
+}
+.vertical{
+    height: 50px;
+    width: 50px;
+}
+.vertical i{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.vertical:hover{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.top-recommend{
+    margin-top: 20px;
+    height: 180px;
+    width: 88%;
+    margin-left: 90px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+}
+.item-1{
+    height: 180px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 18px 18px 30px;
+    text-align: center;
+}
+.grocery{
+    margin-left: 30px;
+}
+.hero-section{
+    margin-top: 20px;
+    height: 180px;
+    width: 88%;
+    position: relative;
+    margin-left: 90px;
+    background-color:#ffffff;
+    /* display: flex; */
+    /* align-items: center; */
+    background: url(image/hero\ image\ 1.webp);
+    background-size: cover;
+    background-position: center;
+    
+}
+.best-electronics{
+    margin-top: 20px;
+    height: 350px;
+    width: 88%;
+    margin-left: 90px;
+    background-color:#ffffff;
+    padding: 20px 20px;
+}
+
+.hero-text-angle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-arrow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-arrow i{
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    gap: 30px;
+}
+.box-block{
+    height:250px;
+    width: 180px;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px ;
+    text-align: center;
+}
+.image{
+    height: 180px;
+    width: 160px;
+}
+.image img{
+    height: 150px;
+    width: 142px;
+}
+.box-block span{
+    font-size: 20px;
+    font-weight: 200;
+}
+.box-block .price{
+    font-weight: bold;
+}
+.beaty-food-toys{
+    margin-top: 20px;
+    height: 350px;
+    width: 88%;
+    margin-left: 90px;
+    background-color:#ffffff;
+    padding: 20px 20px;
+}
+.latest-summer-styles{
+    margin-top: 20px;
+    height: 450px;
+    width: 88%;
+    margin-left: 90px;
+    background-color:#ffffff;
+    padding: 20px 20px;
+}
+.box-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.box-block1{
+    height:360px;
+    width: 290px;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 8px;
+    padding-top: 15px;
+}
+.box-block1 .image{
+    height: 270px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-block1 .image img{
+    height: 270px;
+    width: 250px;
+}
+.box-block1 .price{
+    color: green;
+}
+.span{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    font-weight: bold;
+}
+.festive-specials{
+    margin-top: 20px;
+    height: 450px;
+    width: 88%;
+    margin-left: 90px;
+    background-color:#ffffff;
+    padding: 20px 20px;
+}
+.top-stories{
+    margin-top: 20px;
+    height: 540px;
+    background-color:#ffffff;
+    padding: 20px 20px;
+}
+.top-stories h2{
+    font-weight:550;
+}
+.top-stories span{
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(26, 25, 25); 
+}
+.footer-content1{
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: left; */
+    /* margin-left:-290px; */
+}
+.about h3,.group-companies h3,.Help h3{
+    color:grey;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+.about p,.group-companies p,.Help p{
+    color: #ffffff;
+}
+.para{
+    margin-top: 30px;
+}
