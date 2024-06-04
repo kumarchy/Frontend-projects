@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atm Machine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading">ATM MACHINE</h1>
+    <div class="outer-box">
+      <div class="button-left">
+        <div><button class="btn-left">></button></div>
+        <br />
+        <div><button class="btn-left">></button></div>
+        <br />
+        <div><button class="btn-left">></button></div>
+        <br />
+        <div><button class="btn-left">></button></div>
+      </div>
+      <div class="inner-box1">
+        <div class="inner-box2">
+          <div class="transaction" style="visibility: hidden;">
+          <ul>
+            <button  class="trans-btn1" id="withdrawal">Withdrawal</button>
+            <button class="trans-btn1" id="deposit">Deposit</button>
+            <button class="trans-btn1" id="amount">Amount</button>
+          </ul>
+          <ul>
+            <button class="trans-btn2" id="balance">Balance</button>
+            <button class="trans-btn2" id="fastcash">FastCash</button>
+            <button class="trans-btn2" id="preference">Preferences</button>
+          </ul>
+        </div>
+          <div class="pin">
+            <div class="globe_box" style="visibility: hidden;">   
+              <div class="globe">
+              </div>
+            </div>
+            <h2 id="pin-text">ENTER PIN</h2>
+            <input type="password" id="passwordInput" oninput="maskPassword()">
+          </div>
+      </div>
+    </div>
+      <div class="button-right">
+        <div><button class="btn-right">&lt</button></div>
+        <br />
+        <div><button class="btn-right">&lt</button></div>
+        <br />
+        <div><button class="btn-right">&lt</button></div>
+        <br />
+        <div><button class="btn-right">&lt</button></div>
+      </div>
+    </div>
+    <div class="lower-part">
+      <div class="lower-box">
+        <div class="button_">
+          <div class="btn">
+            <button class="button">1 <sup>QZ</sup></button>
+            <button class="button">2 <sup>ABC</sup></button>
+            <button class="button">3 <sup>DEF</sup></button>
+            <button class="button" id="cancel">CANCEL</button>
+            </div>
+            <div class="btn">
+              <button class="button">4 <sup>GHI</sup></button>
+              <button class="button">5 <sup>JKL</sup></button>
+              <button class="button">6 <sup>MNO</sup></button>
+              <button class="button" id="clear">CLEAR</button>
+              </div>
+            <div class="btn">
+              <button class="button">7 <sup>PRS</sup></button>
+              <button class="button">8 <sup>TUV</sup></button>
+              <button class="button">9 <sup> WXY</sup></button>
+              <button class="button" id="enter">ENTER</button>
+              </div>
+              <div class="btn">
+                <button class="button operator">-</button>
+                <button class="button">0</button>
+                <button class="button operator">+</button>
+                <button class="button operator">.</button>
+                </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerbox{
+    height: 400px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    height: 300px;
+    width: 450px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
