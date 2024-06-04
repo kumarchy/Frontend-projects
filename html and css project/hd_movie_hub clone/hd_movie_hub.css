@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+   
+}
+.ALL{
+    color: orange;
+    font-size: 35px;
+}
+.MOVIES{
+    color: white;
+    font-size: 35px;
+
+}
+.HUB{
+    color: green;
+    font-size: 35px;
+
+}
+.p{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 5px;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.large-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:impact;
+    font-style: italic;
+    position: relative;
+    left: 60px;
+    text-shadow:red 1px 0 20px;
+}
+.label-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+.search{
+    display: flex;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.918);
+    border: none;
+    position: relative;
+    right: 600px;
+    font-size: 15px;
+    color: white;
+}
+i{
+    height: 10px;
+    width: 10px;
+    color: white;
+    position: relative;
+    right: 610px;
+    fill: aqua;
+}
+.btn-first-row{
+    display: flex;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+.btn{
+    margin: 5px;
+}
+.btn-first-row p{
+    color: white;
+    margin-top: 10px;
+}
+.label-3{
+    background-color: rgb(90, 176, 148);
+    position: relative;
+    top: 90px;
+    height: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.close {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    left: 110px;
+    bottom: 12px;
+    font-size: 30px;
+  }
+  
+  .label-4{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    height: 400px;
+    width: 320px;
+    background-color: blue;
+    border: 2px solid black;
+    position: relative;
+    top: 115px;
+    margin: 15px;
+  }
+  .box1{
+background-image:url(movie1.jpeg);  
+background-size: cover;
+}
+.box2{
+    background-image:url(movie2.jpeg);  
+    background-size: cover;
+    }
+.box3{
+    background-image:url(movie3.jpeg);  
+    background-size: cover;
+    }
+.box4{
+    background-image:url(movie4.jpeg);  
+    background-size: cover;
+    }
